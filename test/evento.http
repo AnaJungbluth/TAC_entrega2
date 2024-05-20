@@ -1,0 +1,43 @@
+@url = http://localhost:3000/evento
+
+###Criar
+POST {{url}}
+Content-Type: application/json
+
+{
+    "nome": "teste",
+    "tipo": "testes",
+    "dispositivoID": "1",
+    "detalhes": "2002-09-26"
+}
+
+###Atualizar
+PUT  {{url}}/664bcc51030797d1e20e9aaf
+Content-Type: application/json
+
+{
+    "nome": "teste",
+    "tipo": "testes",
+    "dispositivoID": "2",
+    "detalhes": "2002-09-26"
+}
+
+###Deletar
+POST {{url}}/664bcc51030797d1e20e9aaf
+Content-Type: application/json
+
+{
+    "nome": "teste",
+    "tipo": "testes",
+    "dispositivoID": "2",
+    "detalhes": "2002-09-26"
+}
+
+###GetAll
+GET {{url}}
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmI4YzIwYzhjZjExZTM0ZmViNzc2YSIsImlhdCI6MTcxNDEzMjYyOCwiZXhwIjoxNzE0MTM2MjI4fQ.CsTh9ljcn9XuOumrywdSCPiz2bVmca0tttooLqVdqTM
+
+
+###GetID
+GET {{url}}/6628f395c862a481ef874a9d
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmI4YzIwYzhjZjExZTM0ZmViNzc2YSIsImlhdCI6MTcxNDEzMjYyOCwiZXhwIjoxNzE0MTM2MjI4fQ.CsTh9ljcn9XuOumrywdSCPiz2bVmca0tttooLqVdqTM
