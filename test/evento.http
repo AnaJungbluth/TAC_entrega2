@@ -3,6 +3,7 @@
 ###Criar
 POST {{url}}
 Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgzMzg0MywiZXhwIjoxNzE2ODY5ODQzLCJpc3MiOiJVVEZQUiJ9.rLFM6LWIoNeUjA06zGzqdrqwoiI_V0_SWmcCC9GP5r4
 
 {
     "nome": "teste",
@@ -12,8 +13,9 @@ Content-Type: application/json
 }
 
 ###Atualizar
-PUT  {{url}}/664bcc51030797d1e20e9aaf
+PUT  {{url}}/6654cfc15fee06c52168af48
 Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgzMzg0MywiZXhwIjoxNzE2ODY5ODQzLCJpc3MiOiJVVEZQUiJ9.rLFM6LWIoNeUjA06zGzqdrqwoiI_V0_SWmcCC9GP5r4
 
 {
     "nome": "teste",
@@ -23,21 +25,15 @@ Content-Type: application/json
 }
 
 ###Deletar
-POST {{url}}/664bcc51030797d1e20e9aaf
-Content-Type: application/json
+DELETE {{url}}/6654cfc15fee06c52168af48
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgzMzg0MywiZXhwIjoxNzE2ODY5ODQzLCJpc3MiOiJVVEZQUiJ9.rLFM6LWIoNeUjA06zGzqdrqwoiI_V0_SWmcCC9GP5r4
 
-{
-    "nome": "teste",
-    "tipo": "testes",
-    "dispositivoID": "2",
-    "detalhes": "2002-09-26"
-}
 
 ###GetAll
 GET {{url}}
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmI4YzIwYzhjZjExZTM0ZmViNzc2YSIsImlhdCI6MTcxNDEzMjYyOCwiZXhwIjoxNzE0MTM2MjI4fQ.CsTh9ljcn9XuOumrywdSCPiz2bVmca0tttooLqVdqTM
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgzMzg0MywiZXhwIjoxNzE2ODY5ODQzLCJpc3MiOiJVVEZQUiJ9.rLFM6LWIoNeUjA06zGzqdrqwoiI_V0_SWmcCC9GP5r4
 
 
 ###GetID
-GET {{url}}/6628f395c862a481ef874a9d
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmI4YzIwYzhjZjExZTM0ZmViNzc2YSIsImlhdCI6MTcxNDEzMjYyOCwiZXhwIjoxNzE0MTM2MjI4fQ.CsTh9ljcn9XuOumrywdSCPiz2bVmca0tttooLqVdqTM
+GET {{url}}/6654cfc15fee06c52168af48
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgzMzg0MywiZXhwIjoxNzE2ODY5ODQzLCJpc3MiOiJVVEZQUiJ9.rLFM6LWIoNeUjA06zGzqdrqwoiI_V0_SWmcCC9GP5r4
